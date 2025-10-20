@@ -1,0 +1,17 @@
+# macOS junk
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Big/derived data — don't push
+data/raw/
+data/processed/
+checkpoints/
+logs/
