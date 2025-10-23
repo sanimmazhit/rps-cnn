@@ -1,4 +1,4 @@
-# macOS junk
+# macOS
 .DS_Store
 
 # Python
@@ -10,8 +10,29 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Big/derived data — don't push
-data/raw/
-data/processed/
-checkpoints/
-logs/
+# VS Code (optional)
+.vscode/*
+!.vscode/settings.json
+
+# ---------------------------
+# Data & artifacts (keep folders, ignore contents)
+# ---------------------------
+
+# data/
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/README.md
+
+# training outputs
+checkpoints/*
+!checkpoints/.gitkeep
+logs/*
+!logs/.gitkeep
+
+# large model files (just in case)
+*.h5
+*.keras
+*.pth
+*.pt
