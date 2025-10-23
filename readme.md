@@ -21,24 +21,13 @@ We focus on:
 ## Project Structure
 
 rps-cnn/
-├─ main.ipynb # run top→bottom (has all steps)
-├─ requirements.txt # Python dependencies
-├─ .gitignore # excludes data/.venv/checkpoints/logs
-├─ splits/ # fixed file lists (created by the notebook)
-│ ├─ train.txt
-│ ├─ val.txt
-│ └─ test.txt
-├─ reports/ # figures & (optionally) your PDF
-│ ├─ TinyCNN_acc.png
-│ ├─ TinyCNN_loss.png
-│ ├─ BaseCNN_acc.png
-│ ├─ BaseCNN_loss.png
-│ ├─ DeepCNN_acc.png
-│ ├─ DeepCNN_loss.png
-│ └─ test_confusion_matrix.png
-└─ data/ # local only (ignored by Git)
-└─ raw/
-└─ paper | rock | scissors
+- `main.ipynb` — run top→bottom
+- `requirements.txt` — dependencies
+- `.gitignore` — ignores data/.venv/checkpoints/logs
+- `splits/` — `train.txt`, `val.txt`, `test.txt`
+- `reports/` — training curves + `test_confusion_matrix.png`
+- `data/raw/` — local dataset (ignored)
+
 
 ---
 
