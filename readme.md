@@ -36,4 +36,4 @@ rps-cnn/
 - Kaggle: **Rock–Paper–Scissors**  
   https://www.kaggle.com/datasets/drgfreeman/rockpaperscissors/data
 
-**Place locally (not in the reporepository):**
+**Place locally (not in the reporepository)**
