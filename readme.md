@@ -21,12 +21,12 @@ We focus on:
 ## Project Structure
 
 rps-cnn/
-- `main.ipynb` — run top→bottom
+- `main.ipynb` — main code
 - `requirements.txt` — dependencies
 - `.gitignore` — ignores data/.venv/checkpoints/logs
 - `splits/` — `train.txt`, `val.txt`, `test.txt`
 - `reports/` — training curves + `test_confusion_matrix.png`
-- `data/raw/` — local dataset (ignored)
+- `data/raw/` — local dataset 
 
 
 ---
