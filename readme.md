@@ -14,8 +14,7 @@ We focus on:
 ## Open Notebook
 
 - **Main notebook:** `main.ipynb`  
-- *(Optional Colab link – replace USERNAME/REPO if you want this button)*
-  - [Open in Colab](https://colab.research.google.com/github/USERNAME/REPO/blob/main/main.ipynb)
+
 
 ---
 
